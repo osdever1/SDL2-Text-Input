@@ -53,9 +53,9 @@ int main(int argc, char *argv[]) {
         jvpTexteLength = 0, 
         jvj1TexteLength = 0, 
         jvj2TexteLength = 0;
-    char* jvpTexteInput = (char*) malloc(16), 
-        *jvj1TexteInput = (char*) malloc(16), 
-        *jvj2TexteInput = (char*) malloc(16);
+    char* jvpTexteInput = (char*) calloc(1, 16), 
+        *jvj1TexteInput = (char*) calloc(1, 16), 
+        *jvj2TexteInput = (char*) calloc(1, 16);
     BOOL isJVPTexteInput = FALSE, 
         isJVJ1TexteInput = FALSE, 
         isJVJ2TexteInput = FALSE;
